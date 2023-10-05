@@ -27,7 +27,7 @@ binary_tree_is_bst(tree->right, tree->n + 1, max));
 /**
 * binary_tree_is_bst - function that checks if a binary tree
 * is a valid Binary Search Tree
-* @tree: pointer to the root node of the tree to check
+* @tree: pointer to the root nodes of the tree to check
 * Return: If tree is NULL, your function must return 0
 */
 if (tree == NULL)
