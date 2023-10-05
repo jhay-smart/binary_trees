@@ -17,7 +17,6 @@ binary_tree_t *right_child;
 if (parent == NULL)
 return (NULL);
 
-i
 right_child = binary_tree_node(parent, value);
 if (right_child == NULL)
 return (NULL);
