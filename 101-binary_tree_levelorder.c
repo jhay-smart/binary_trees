@@ -22,7 +22,7 @@ return (0);
 return (binary_tree_is_bst(tree->left, min, tree->n - 1) &&
 binary_tree_is_bst(tree->right, tree->n + 1, max));
 
-}
+
 
 /**
 * binary_tree_is_bst - function that checks if a binary tree
@@ -30,8 +30,6 @@ binary_tree_is_bst(tree->right, tree->n + 1, max));
 * @tree: pointer to the root node of the tree to check
 * Return: If tree is NULL, your function must return 0
 */
-int binary_tree_is_bst(const binary_tree_t *tree)
-{
 if (tree == NULL)
 return (0);
 return (binary_tree_is_bst(tree, INT_MIN, INT_MAX));
